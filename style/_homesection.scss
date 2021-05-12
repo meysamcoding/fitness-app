@@ -1,0 +1,318 @@
+.home{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.gymimg{
+    top: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.top1{
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  font-size:5vw;
+  transform: translate(-50%, -50%);
+}
+.top2{
+  position: absolute;
+  font-size:3vw;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn1{
+  position: absolute;
+  font-size:2vw;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  color: $light;  
+  border: 0.2rem solid #dadada;
+  padding: 5px;
+  text-decoration: none;
+}
+.icons{
+    position: absolute;
+    font-size: 2vw;
+    color: $light;
+    top: 72%;
+    left: 45%;
+    
+}
+.fab{
+    text-decoration: none;
+    color: $light;
+}
+//Second section home
+.bg-danger h1{
+  color: $light;
+  text-align: center;
+  padding: 20px;
+}
+.bg-danger h1:hover{
+  transform: scale(1.1)
+}
+.learn{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.learn button{
+  padding: 5px;
+  border:solid 1px rgb(226, 226, 226);
+  display: flex;
+  margin: auto;
+  background: transparent;
+}
+ 
+.img-sec-2{
+  position: relative;
+  text-align: center; 
+}
+.sec-gymimg{
+    top: 0px;
+    width: 416px;
+    height: auto;
+}
+
+.form-2{
+  margin: 10px auto;
+}
+.form-2 h1{
+  font-family: bold; 
+  padding: 5px;
+}
+.form-2 p{
+  font-family: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.form-2 a{
+  margin: 5px; 
+}
+.col-lg-4.col-sm-12.form-2:hover{
+   
+  transform: scale(1.1);
+        
+}
+.form-2 a button:hover{
+  background-color: rgb(202, 125, 125);
+}
+
+// <!--Section 3-->
+.buttons button{
+  background: transparent;
+  margin: 10px;
+  width: 20%;
+  padding: 10px;
+  text-rendering: auto;
+  border: solid 2px rgb(214, 214, 214);
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.buttons button:hover{   
+ font-family: bold;
+  transform: scale(1.2);
+}
+.form-3 h3{
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-3 p{
+  padding: 20px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-3 h1{
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.team{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+// Gallery seaction
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  
+}
+
+img.gym-gallery{
+ padding: 10px;
+}
+
+img.gym-gallery:hover{
+  transform: scale(1.1);
+}
+// section 4 contact form
+.contact{
+  position: relative; 
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.contact::before {    
+  content: "";
+  background-image: url('./../images/cleangym.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .75;
+}
+img.body{
+  position: relative;  
+  opacity: .90;
+  width: 100%;
+  height: auto;
+}
+div.form{
+  position: relative; 
+  margin: 20px;
+  padding: 0 10px;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(161, 46, 46);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: $light;
+}
+label{
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+::placeholder{
+  color: rgb(161, 46, 46);
+}
+
+input[type=submit] {
+  background-color: rgb(161, 46, 46);
+  width: 100%;
+  color: white;
+  font-family: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(131, 0, 0);
+}
+textarea:focus {
+  background-color: rgb(161, 46, 46);
+}
+textarea#subject:focus{
+  background-color: rgb(161, 46, 46);
+  opacity: 0.65; 
+}
+input#lname:focus{
+  background-color: rgb(161, 46, 46);
+  opacity: 0.65;
+}
+
+textarea#subject {
+  background: transparent;
+  
+}
+select#country{
+  background: transparent;
+}
+input#lname {
+  background: transparent;
+}
+input#fname{
+  background: transparent;
+}
+.form h1{
+  font-family: bold;
+  color: $light;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+//footer section.....
+.footer{
+  position: relative;
+}
+div.col-1{
+  justify-content: center; 
+  text-align: center;
+}
+.footer-icons a{
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  color: $light;
+  font-size: 25px; 
+  padding: 12px;
+}
+.col-2{
+  justify-content: center; 
+  text-align: center;
+  display: block;
+}
+.foot-logo h1{ 
+  margin-top: 20px;
+  color: $black;
+
+}
+ 
+.footer-icons a::after{ 
+  content: attr(data-text);
+}
+div.col-2 a{
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  color: $light;
+  font-size: 25px; 
+  padding: 12px;
+  margin: 10px;
+}
+div.col-2 a::after{
+  content: attr(data-text);
+}
+
+.letter h1{
+  margin-top: 22px;
+  color: $black;
+}

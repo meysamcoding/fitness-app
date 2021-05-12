@@ -1,0 +1,88 @@
+@import 'navbar';
+@import 'homesection';
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 728px) {
+    .navbar-menu a {display: none;}
+    .navbar-menu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+
+@media only screen and (max-width: 730px) {
+    .navbar-menu a{display:none;}
+    .logo-nav{display:none;}
+    .navbar-menu.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar-menu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+     
+  .buttons button {  
+    margin-left: 50px;
+    text-align: center;
+        
+}  
+      }
+  @media only screen and (max-width: 1200px) {
+     .logo-nav{display:none;}
+     
+    
+  }
+  @media screen and (max-width: 930px) {
+    .navbar-menu a {display: none;}
+    .navbar-menu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    .logo-nav{display:none;}
+    .sec-gymimg{width:295px;}
+    .navbar-menu a{display:none;}
+    .navbar-menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .navbar-menu.responsive a{
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  }
+  @media only screen and (max-width: 1400px) {
+    .sec-gymimg{width:356px;}
+   
+ }
+ @media only screen and (max-width: 1200px) {
+  .sec-gymimg{width:295px;}
+ 
+}
+@media only screen and (max-width: 992px) {
+  .sec-gymimg{width:100%; }
+  .form-2{padding: 5px;}
+  
+}
+
+@media only screen and (max-width: 360px) {
+  
+  .buttons button {  
+    margin-left: 20px;
+    text-align: center;
+     
+}
+}
